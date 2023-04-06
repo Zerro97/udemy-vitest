@@ -1,4 +1,5 @@
-import { describe, it } from 'vitest';
+import { describe, it, expect, beforeEach } from 'vitest';
+import { extractPostData } from './posts.js';
 
 const testTitle = 'test title';
 const testContent = 'test content';
